@@ -1,0 +1,154 @@
+html {
+    background-color: #606060;
+    }
+
+
+.k-flix{
+    color: #606060;
+    font-size: 7em;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.pick{
+    color: #606060;
+    font-size: 3.2em;
+    margin-left: 40px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+
+.pick2{
+    color: #606060;
+    line-height: 28px;
+    font-weight: normal;
+    margin-left: 40px;
+}
+
+.mainbtn{
+    background-color:transparent;
+    color: #606060;
+    border: 2px solid #606060;
+    border-radius: 18px;
+    padding: 5px;
+    font-weight: bold;
+    width: 80px;
+    margin-left: 8px;
+
+    
+}
+
+.mainbox{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D6ED17;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+.searchbox{
+    margin-top: 20px;
+    margin-left: 38px;
+    width: 640px;
+    height: 35px;
+
+    border-radius: 21px 0px 0px 21px;
+    background-color: #606060;
+}
+
+.serchBtn{
+    width: 80px;
+    height: 43px;
+    background-color: transparent;
+   border: 2px solid #606060;
+    border-radius: 0px 21px 21px 0px;
+    font-weight: bold;
+    color: #606060;
+}
+
+
+.container{
+    display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 30px; 
+      
+            height: 100px;
+        margin-top: 40px;   
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+
+.postBoxtParent{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    
+    }
+
+
+    .childSpan{
+        font-weight: bold;
+        font-size: 24px;
+        color: #D6ED17;
+        display: block;
+    }
+    
+    .childImg {
+
+        width: 400px;
+        border-radius: 8px;
+        margin-bottom: 6px;
+       
+        transition: 0.2s;
+        cursor: pointer;
+        
+    }
+    
+    .childP{
+        text-align: justify;
+        color: #D6ED17;
+        width: 400px;
+    }
+    
+    
+    .childdate {
+
+        margin-top: 20px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        text-align: center; 
+        width: 400px;
+
+        height: 25px;
+        background-color:#D6ED17;
+        border-radius: 4px;
+        color:#606060
+       
+      
+    }
+
+
+/* .postbox{
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 8px;
+
+    background-color: #606060;
+    border: 2px solid #D6ED17;
+    color: #D6ED17;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 2px;
+} */
+
