@@ -9,6 +9,11 @@ function clicklike(){
     alert("좋아요 완료!")
 }
 
+//커서 깜빡이는 기능 추가
+const searchInput = document.querySelector("#searchbox");
+searchInput.focus();
+
+
 // function clickbtn(){
     //String.match(new RegExp(searchVariable, "i")); 대소문자 구분없는 코드
     // 1. 인풋창에 입력된 텍스트를 가져올것
